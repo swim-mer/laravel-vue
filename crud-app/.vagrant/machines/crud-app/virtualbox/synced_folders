@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/crud-app":{"type":null,"mount_options":["uid=1000","gid=1000"],"guestpath":"/home/vagrant/crud-app","hostpath":"/Users/user/Learning/laravel-vue/crud-app","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/user/Learning/laravel-vue/crud-app","disabled":false,"__vagrantfile":true}}}

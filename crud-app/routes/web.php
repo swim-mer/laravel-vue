@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CatController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-Route::resource('cats', 'CatController');
-
 });
+
+Route::resource('cats', CatController::class, ['except' => ['create', 'edit']]);
+//Route::get('/cats', function () {
+//    return "Test";
+//});

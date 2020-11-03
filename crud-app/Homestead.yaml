@@ -8,11 +8,11 @@ keys:
 folders:
     -
         map: /Users/user/Learning/laravel-vue/crud-app
-        to: /home/vagrant/code
+        to: /home/vagrant/crud-app
 sites:
     -
-        map: homestead.test
-        to: /home/vagrant/code/public
+        map: crud-app.test
+        to: /home/vagrant/crud-app/public
 databases:
     - homestead
 features:

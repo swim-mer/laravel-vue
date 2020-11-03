@@ -255,7 +255,8 @@ function xphp() {
     (php -m | grep -q xdebug)
     if [[ $? -eq 0 ]]
     then
-        XDEBUG_ENABLED=true
+#        XDEBUG_ENABLED=true
+        XDEBUG_ENABLED=false
     else
         XDEBUG_ENABLED=false
     fi
