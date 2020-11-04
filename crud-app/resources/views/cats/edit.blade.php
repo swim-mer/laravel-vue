@@ -33,7 +33,7 @@
     </div>
     <div class="form-group">
         <label for="gender">Gender</label>
-        <input type="text" class="form-control" value="{{ $cat->gender }}" placeholder="Enter Gender" name="gender>
+        <input type="text" class="form-control" value="{{ $cat->gender }}" placeholder="Enter Gender" name="gender">
     </div>
     <div class="form-group">
         <label for="age">Age</label>

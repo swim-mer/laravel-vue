@@ -1,18 +1,25 @@
 @extends('cats.layout')
 @section('content')
 
+@section('title')
+{{__('Welcome to Cat County')}}
+@endsection
+
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-right">
-            <a class="btn btn-primary" href="{{ route('cats.create')  }}">
+            <a class="btn btn-primary" href="{{ route('cats.create')  }}">Add a Cat</a>
         </div>
     </div>
 </div>
+
+<br>
 
 @if ($message = Session::get('success'))
     <div class="alert alert-success">
         <p>{{ $message }}</p>
     </div>
+<br>
 @endif
 
 <table class="table table-striped table-bordered">
@@ -25,7 +32,7 @@
         </tr>
     </thead>
     <tbody>
-@foreach ($cats as $cat)
+    @foreach ($cats as $cat)
     <tr>
         <th scope="row">{{ $cat->id }}</th>
         <td>{{ $cat->name }}</td>
@@ -45,7 +52,7 @@
         </form>
         </td>
     </tr>
-@endforeach
+    @endforeach
     </tbody>
 </table>
 

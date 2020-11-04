@@ -85,7 +85,8 @@ class CatController extends Controller
             'age' => 'required',
         ]);
 
-        $cat->update($request->all());
+        $cat->fill($request->input());
+        $cat->saveOrFail();
 
         return redirect()->route('cats.index')->with('success', 'Cat updated successfully');
     }
