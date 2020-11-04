@@ -1,10 +1,11 @@
 @extends('cats.layout')
-@section('content')
 
 @section('title')
     {{__('Add a Cat - Cat County')}}
 @endsection
 
+
+@section('content')
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left">

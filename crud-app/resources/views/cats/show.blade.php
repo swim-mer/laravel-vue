@@ -6,6 +6,16 @@
 
 @section('content')
 
+<div class="row">
+    <div class="col-lg-12 margin-tb">
+        <div class="pull right">
+            <a class="btn btn-info" href="{{ route('cats.index') }}">Back</a>
+        </div>
+    </div>
+</div>
+
+<br>
+
 <table class="table table-striped table-bordered">
     <thead>
         <tr>

@@ -1,8 +1,12 @@
 @extends('cats.layout')
 
+@section('title')
+    {{__('Edit Cat') }}
+@endsection
+
 @section('content')
 
-<div class="row>
+<div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left">
             <h2>Edit Cat</h2>
