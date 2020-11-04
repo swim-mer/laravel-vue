@@ -1,6 +1,6 @@
 ## About This App
 
-This is a basic CRUD app that stores a list of Cats in a database and allows the user the create, read, update, and delete Cat entries from a web browser. Run this app by cloning the repository, navigating into the root directory, and running `php artisan serve`. 
+This is a basic CRUD app that stores a list of Cats in a database and allows the user to create, read, update, and delete Cat entries from a web browser. Run this app by cloning the repository, navigating into the root directory, and running `php artisan serve`. 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
