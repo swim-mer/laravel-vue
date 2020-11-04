@@ -11,7 +11,7 @@ folders:
         to: /home/vagrant/crud-app
 sites:
     -
-        map: crud-app.test
+        map: crud-app.local.test
         to: /home/vagrant/crud-app/public
 databases:
     - homestead

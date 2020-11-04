@@ -34,7 +34,7 @@
         <td>
         <form action="{{ route('cats.destroy', $cat->id) }}" method="POST">
 
-            <a class="btn btn-info" href="{{ route('cats.show'), $cat->id) }}">Show</a>
+            <a class="btn btn-info" href="{{ route('cats.show', $cat->id) }}">Show</a>
 
             <a class="btn btn-primary" href="{{ route('cats.edit', $cat->id) }}">Edit</a>
 
@@ -49,6 +49,5 @@
     </tbody>
 </table>
 
-{{ $cats->links() }}
 
 @endsection
